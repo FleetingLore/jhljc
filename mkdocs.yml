@@ -1,9 +1,10 @@
-site_name: mkdocs-example
-site_url: https://fleetinglore.github.io/mkdocs-example
+site_name: 集合论基础
+site_url: https://fleetinglore.github.io/jhljc
 
-# 在此处指定目录
 nav:
-  - example: index.md
+  - index: index.md
+  - 第一章  集合及其基数:
+    - 1. 集合: 1/1.md 
 
 theme:
   name: material
