@@ -4,7 +4,8 @@ site_url: https://fleetinglore.github.io/jhljc
 nav:
   - index: index.md
   - 第一章  集合及其基数:
-    - 1. 集合: 1/1.md 
+    - 1. 集合: 1/1.md
+    - 2. 基数: 1/2.md
 
 theme:
   name: material
