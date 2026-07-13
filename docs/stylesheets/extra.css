@@ -42,7 +42,7 @@
 
   /* ===== 代码块 ===== */
   --md-code-fg-color:             var(--text);
-  --md-code-bg-color:             var(--aux-dark);
+  --md-code-bg-color:             var(--aux-mid);
   --md-code-hl-color:             var(--theme);
   --md-code-hl-number-color:      var(--theme);
   --md-code-hl-special-color:     var(--theme);
@@ -107,6 +107,18 @@
 .md-typeset a:hover {
   color: var(--theme);
   background-color: var(--bg);
+}
+
+/* 页脚链接：蓝色背景 + 白色文字，悬浮青色 */
+.md-footer a {
+  background: var(--link) !important;
+  color: var(--text) !important;
+  transition: all 0.2s ease;
+}
+
+.md-footer a:hover {
+  color: var(--theme) !important;
+  background-color: var(--aux-dark) !important;
 }
 
 /* 导航标题 */

@@ -1,6 +1,11 @@
 site_name: 集合论基础
 site_url: https://fleetinglore.github.io/jhljc
 
+repo_url: https://github.com/fleetinglore/jhljc
+repo_name: fleetinglore/jhljc
+
+copyright: Copyright &copy; 2026 <a href="http://ducia.site/jhljc/fair-use">合理使用声明</a>
+
 nav:
   - index: index.md
   - 第一章  集合及其基数:
