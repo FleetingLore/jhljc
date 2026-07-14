@@ -5,7 +5,7 @@ repo_url: https://github.com/fleetinglore/jhljc
 repo_name: fleetinglore/jhljc
 
 nav:
-  - 朴素集合论: index.md
+  - 目录: index.md
   - 第一章  集合, 基数:
     - 1. 集合: 1/1.md
     - 2. 基数: 1/2.md
