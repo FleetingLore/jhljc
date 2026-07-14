@@ -1,8 +1,8 @@
 site_name: 朴素集合论
-site_url: https://ducia.site/jhljc
+site_url: https://ducia.site/psjhl
 
-repo_url: https://github.com/fleetinglore/jhljc
-repo_name: fleetinglore/jhljc
+repo_url: https://github.com/fleetinglore/psjhl
+repo_name: fleetinglore/psjhl
 
 nav:
   - 目录: index.md
