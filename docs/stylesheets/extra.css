@@ -159,5 +159,5 @@
 /* 滚动条 */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track  { background: var(--bg); }
-::-webkit-scrollbar-thumb  { background: var(--theme); border-radius: 3px; }
+::-webkit-scrollbar-thumb  { background: var(--aux-lit); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--link); }
