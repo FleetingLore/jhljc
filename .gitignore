@@ -6,3 +6,6 @@ site/
 
 # heihui
 password
+
+# typst
+build/

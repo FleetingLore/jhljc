@@ -1,17 +1,33 @@
-# 部署变量
-HOST   ?= root@160.202.47.107
-DIR    ?= /var/www/jhljc
+# ============================================================
+#  朴素集合论 · 构建
+# ============================================================
 
-.PHONY: build deploy clean
+HOST  ?= root@160.202.47.107
+DIR   ?= /var/www/psjhl
 
-# 构建站点
-build:
-	mkdocs build
+.PHONY: pdf html deploy serve clean all
 
-# 上传到服务器
-deploy: build
+# ---- PDF 全书 ----
+pdf:
+	typst compile src/book.typ psjhl.pdf
+
+# ---- HTML 网站 ----
+html:
+	typbook build
+	cp -r assets site/
+
+# ---- 部署 ----
+deploy: html
 	rsync -avz --delete site/ $(HOST):$(DIR)/
 
-# 清理构建产物
+# ---- 本地预览 ----
+serve:
+	typbook serve
+
+# ---- 一次性构建 ----
+all: pdf html
+
+# ---- 清理 ----
 clean:
-	rm -rf site/
+	typbook clean
+	rm -f psjhl.pdf
